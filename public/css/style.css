@@ -1,0 +1,76 @@
+/* public/css/style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.inscription-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.inscription-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.inscription-form label,
+.inscription-form input {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.inscription-form input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.inscription-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+
+.user-table-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centre le contenu à l'intérieur */
+    box-sizing: border-box; /* Assure une largeur de 100% incluant le padding */
+}
+
+.user-table {
+    width: 100%; /* La table occupe toute la largeur du conteneur */
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.user-table th {
+    background-color: #3939ac;
+    color: white;
+}
+
+
+
